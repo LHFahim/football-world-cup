@@ -56,6 +56,11 @@ body {
   font-weight: 400;
 }
 
+.watch-btn:hover {
+  background-color: orangered;
+  color: whitesmoke;
+}
+
 .banner-image {
   /* border: 1px solid red; */
   margin: 0 auto;
@@ -79,18 +84,26 @@ body {
 .nav {
   background-color: #00465a;
   width: 312px;
-  /* height: 320px; */
+  height: 320px;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .blog-btn {
   margin: 30px;
 
-  width: 252px;
-  height: 50px;
+  width: 200px;
+  padding: 20px 20px;
+
   border: none;
   border-radius: 10px;
+  text-align: center;
 
+  background-color: white;
+}
+
+.blog-btn a {
+  text-decoration: none;
   color: #00465a;
   font-weight: 500;
   font-size: 20px;
@@ -114,10 +127,11 @@ body {
   flex-direction: column;
 
   width: 312px;
-
   /* height: 362px; */
 
   /* border: 1px solid red; */
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
 }
 
 .blog-details {
