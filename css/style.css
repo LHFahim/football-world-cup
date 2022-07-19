@@ -191,7 +191,7 @@ body {
 .footer-nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 
   padding-bottom: 50px;
   width: 900px;
@@ -200,6 +200,10 @@ body {
   font-weight: 500;
   color: #b9b9b9;
   /* border: 1px solid black; */
+}
+
+.nav-one small {
+  padding: 0 30px;
 }
 
 .socials {
@@ -219,4 +223,97 @@ body {
 
 #copyright {
   color: #b9b9b9;
+}
+
+/*-----------------------
+      media queries
+------------------------- */
+/* tablet view */
+
+@media screen and (max-width: 768px) {
+  /* top banner */
+  .banner-container {
+    width: 95%;
+    padding-bottom: 10px;
+  }
+  .banner-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    padding-left: 50px;
+  }
+  .banner-text-title {
+    font-size: 40px;
+  }
+  .banner-text-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.718);
+  }
+  .banner-image {
+    margin-left: 0;
+  }
+  .banner-image img {
+    width: 115%;
+    position: relative;
+    top: 14px;
+  }
+
+  /* blog section */
+  .blogs-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    /* border: 1px solid black; */
+    margin: 0 auto 200px;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 80%;
+    margin: 0 auto 20px;
+    height: 100px;
+  }
+  .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* footer section */
+  .footer-container {
+    width: 100%;
+  }
+
+  #footer-hr {
+    width: 70%;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+
+    padding-bottom: 50px;
+    width: 90%;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #b9b9b9;
+    /* border: 1px solid black; */
+  }
+
+  .nav-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    /* border: 1px solid black; */
+  }
 }
