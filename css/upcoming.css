@@ -63,14 +63,6 @@
   .fixture-item {
     width: 95%;
   }
-
-  .footer-nav {
-    /* border: 1px solid black; */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    grid-gap: 10px;
-  }
 }
 
 /* phone view */
@@ -84,13 +76,5 @@
 
   .fixture-item {
     width: 95%;
-  }
-
-  .footer-nav {
-    /* border: 1px solid black; */
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    grid-gap: 10px;
   }
 }

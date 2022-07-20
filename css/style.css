@@ -226,8 +226,10 @@ body {
   /* border: 1px solid black; */
 }
 
-.nav-one small {
+.nav-one a {
   padding: 0 30px;
+  color: #b9b9b9;
+  text-decoration: none;
 }
 
 .socials {
