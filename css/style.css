@@ -74,6 +74,8 @@ body {
 
 .banner-image img {
   width: 150%;
+  position: relative;
+  top: 4px;
 }
 
 /*-----------------------
@@ -376,9 +378,12 @@ body {
     text-align: center;
   }
   .banner-image {
-    margin-left: 40px;
+    margin-left: 20px;
     position: relative;
-    top: 14px;
+    top: 10px;
+  }
+  .banner-image img {
+    width: 130%;
   }
 
   /* blog section */
