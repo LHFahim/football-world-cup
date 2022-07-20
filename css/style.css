@@ -51,14 +51,20 @@ body {
 
   text-decoration: none;
   width: 130px;
+
   padding: 16px;
   font-size: 20px;
   font-weight: 400;
+
+  transition: width 1s;
 }
 
 .watch-btn:hover {
   background-color: orangered;
   color: whitesmoke;
+
+  width: 200px;
+  text-align: center;
 }
 
 .banner-image {
