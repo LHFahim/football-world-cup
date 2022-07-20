@@ -82,7 +82,7 @@ body {
 }
 
 .nav {
-  background-color: #00465a;
+  /* background-color: #00465a; */
   width: 312px;
   height: 320px;
   border-radius: 10px;
@@ -100,6 +100,8 @@ body {
   text-align: center;
 
   background-color: white;
+
+  border: 1px solid #00465a;
 }
 
 .blog-btn a {
@@ -127,7 +129,6 @@ body {
   flex-direction: column;
 
   width: 312px;
-  /* height: 362px; */
 
   /* border: 1px solid red; */
   border: 1px solid #e8e8e8;
@@ -297,6 +298,9 @@ body {
   .blogs {
     grid-template-columns: repeat(2, 1fr);
   }
+  .hidden-blog {
+    display: none;
+  }
 
   .show-more-btn {
     display: inline;
@@ -366,7 +370,9 @@ body {
     text-align: center;
   }
   .banner-image {
-    margin-left: 70px;
+    margin-left: 40px;
+    position: relative;
+    top: 14px;
   }
 
   /* blog section */
@@ -392,12 +398,10 @@ body {
   .blog-btn {
     margin: 10px;
   }
-
   .blogs {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 0;
   }
-
   .blog {
     width: 100%;
     /* border: 1px solid red; */
