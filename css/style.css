@@ -266,7 +266,7 @@ body {
     flex-direction: column;
     row-gap: 20px;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 20px;
   }
   .banner-text-title {
     font-size: 40px;
@@ -281,7 +281,8 @@ body {
     margin-left: 0;
   }
   .banner-image img {
-    width: 115%;
+    /* width: 115%; */
+    width: 100%;
     position: relative;
     top: 14px;
   }
@@ -300,19 +301,33 @@ body {
     flex-direction: row;
     align-items: center;
 
-    width: 80%;
+    width: 100%;
     margin: 0 auto 20px;
     height: 100px;
+
+    /* border: 1px solid red; */
   }
   .blogs {
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
   }
+
+  .blog {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+
+  .blog-image img {
+    width: 100%;
+  }
+
   .hidden-blog {
     display: none;
   }
 
   .show-more-btn {
     display: inline;
+    border: 1px solid #00465a;
   }
 
   /* footer section */
