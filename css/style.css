@@ -165,6 +165,20 @@ body {
   margin-left: 20px;
 }
 
+.show-more-btn {
+  width: 80px;
+  background-color: yellow;
+  padding: 16px;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  display: none;
+}
+.show-more-btn a {
+  text-decoration: none;
+  color: #00465a;
+  font-size: 20px;
+}
+
 /*-----------------------
       footer section
 ------------------------- */
@@ -230,8 +244,8 @@ body {
       media queries
 ------------------------- */
 /* tablet view */
-
-@media screen and (max-width: 768px) {
+/* 768px */
+@media screen and (min-width: 577px) and (max-width: 992px) {
   /* top banner */
   .banner-container {
     width: 95%;
@@ -284,6 +298,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .show-more-btn {
+    display: inline;
+  }
+
   /* footer section */
   .footer-container {
     width: 100%;
@@ -320,7 +338,7 @@ body {
 }
 
 /* phone view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   /* top banner */
   .banner-container {
     width: 95%;
