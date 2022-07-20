@@ -90,7 +90,7 @@ body {
 }
 
 .nav {
-  /* background-color: #00465a; */
+  background-color: #00465a;
   width: 312px;
   height: 320px;
   border-radius: 10px;
@@ -295,6 +295,7 @@ body {
     margin: 0 auto 200px;
   }
   .nav {
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -395,6 +396,8 @@ body {
     margin: 0 auto 200px;
   }
   .nav {
+    background-color: #ffffff;
+
     display: flex;
     flex-direction: column;
     align-items: center;
