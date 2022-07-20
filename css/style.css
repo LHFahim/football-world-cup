@@ -379,12 +379,12 @@ body {
     text-align: center;
   }
   .banner-image {
-    margin-left: 20px;
+    margin-left: 100px;
     position: relative;
     top: 10px;
   }
   .banner-image img {
-    width: 130%;
+    width: 100%;
   }
 
   /* blog section */
